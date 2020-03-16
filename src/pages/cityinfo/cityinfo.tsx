@@ -2,9 +2,10 @@ import Taro, { Component, Config } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
 import './cityinfo.scss'
 
-export default class Index extends Component {
+export default class CityInfo extends Component {
   constructor()
   {
+    console.log('in index page constru');
     super();
     this.state={
       city:String,
